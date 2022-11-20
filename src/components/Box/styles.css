@@ -1,0 +1,35 @@
+.box {
+  width: 400px;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #212529;
+}
+
+.box input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box button {
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 325px) {
+  .box {
+      max-width: 300px;
+  }
+}
+
+@media (max-width: 375px) {
+  .box {
+      max-width: 350px;
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="./src/components/Box/styles.css">
+    <link rel="stylesheet" href="./src/components/Result/styles.css">
+    <title>Project Via Cep</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="menu">
+            <div class="via-cep">ViaCEP</div>
+            <div class="contact">Contato</div>
+        </div>
+    </header>
+
+    <section class="body">
+        <div class="box">
+            <input type="number" class="input-cep" placeholder="Digite o seu CEP:" autofocus />
+            <input type="text" class="input-city" disabled/>
+            <input type="number" class="input-number" placeholder="Digite um Número:"/>
+            <input type="text" class="input-street" disabled/>
+            
+            <div class="buttons">
+                <button class="handle-submit">Enviar</button>
+                <button class="handle-clear">Limpar</button>
+            </div>
+        </div>
+        <div class="box-result">
+            <!-- Aqui será criado os containers dos resultados. -->
+        </div>
+    </section>
+
+    <script type="module" src="./src/script.js"></script>
+</body>
+
+</html>
